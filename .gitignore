@@ -1,0 +1,32 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore the virtual environment directory (if you are using one)
+venv/
+
+# Ignore environment-specific files
+.env
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+
+# Ignore any log files
+*.log
+
+# Ignore the Flask development server file
+flask.sqlite
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore any generated files or build directories
+*.egg-info/
+dist/
+build/
